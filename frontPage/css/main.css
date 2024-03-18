@@ -1,0 +1,127 @@
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    border-spacing: 0px;
+    background-color: #777777;
+    /*border-radius: 3px;*/
+}
+@font-face
+{
+    font-family: DINproMedium;
+    src: url('/frontPage/fonts/DINPro-Light_1.otf'),
+    url('/frontPage/fonts/DINPro-Light_1.otf') format("opentype");
+}
+
+/*Verdana*/
+:root {
+    --my-border-color: #97c6ff; /*#97c6ff*/
+    --my-all-background: #ebf7ff;
+    --my-insert-background:#3e9dfb;
+    --my-insert-menu-background:#7ab8ff;
+    --my--menu-background: #daeaff;
+    --my-alert-background:#c31e1e;
+    --my-white-text-color:#ffffff;
+    --my-black-text-color: #436dac;
+    /*3e9dfb*/
+}
+.borderTop {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #97c6ff; /*для долбанного эксплорера*/
+    border-top-color: var(--my-border-color);
+}
+.borderBottom {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #97c6ff; /*для долбанного эксплорера*/
+    border-bottom-color: var(--my-border-color);
+}
+.borderLeft {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #97c6ff; /*для долбанного эксплорера*/
+    border-left-color: var(--my-border-color);
+}
+.borderRight {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #97c6ff; /*для долбанного эксплорера*/
+    border-right-color: var(--my-border-color);
+}
+.BorderAll{
+    border: 1px;
+    border-style: solid;
+    border-color: #97c6ff; /*для долбанного эксплорера*/
+    border-color: var(--my-border-color);
+}
+.BorderOff{
+    border: 0px;
+    border-style: none;
+}
+.borderRadiusTop{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+.borderRadiusBottom{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.backgroundNormal{
+    background: #f4f9ff; /*для долбанного эксплорера*/
+    background: var(--my-all-background);
+}
+.backgroundInsert{
+    background: #3e9dfb; /*для долбанного эксплорера*/
+    background: var(--my-insert-background);
+}
+.background-Menu{
+    background: #daeaff; /*для долбанного эксплорера*/
+    background: var(--my--menu-background);
+}
+.background-Insert-Menu{
+    background: #7ab8ff; /*для долбанного эксплорера*/
+    background: var(--my-insert-menu-background);
+}
+.backgroundAlert{
+    background: #c31e1e; /*для долбанного эксплорера*/
+    background: var(--my-alert-background);
+}
+.textColorWhite{
+    color: #ffffff; /*для долбанного эксплорера*/
+    color: var(--my-white-text-color);
+}
+.textColorBlack{
+    color: #436dac; /*для долбанного эксплорера*/
+    color: var(--my-black-text-color);
+}
+/*паралельная настройка размера шрифта в VElements*/
+.textFontBig{
+    font-size: 20px;
+}
+.textFontNormal{
+    font-size: 14px;
+}
+.textFontSmall{
+    font-size: 11px;
+}
+.textFontMicro{
+    font-size: 9px;
+}
+
+.shadowNormal{
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+.shadowSmall{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+}
+
+/*======================================================================================*/
+/*====Сборка для кнопки===============================================================*/
+/*======================================================================================*/
+.MyButton{
+
+}
